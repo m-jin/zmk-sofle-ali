@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: m165437 #nice-view-gem
+      url-base: https://github.com/M165437   
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -12,6 +14,9 @@ manifest:
       remote: cormoran
       revision: v0.3-branch+dya
       import: app/west.yml
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
