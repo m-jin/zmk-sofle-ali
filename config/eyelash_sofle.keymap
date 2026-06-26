@@ -167,17 +167,4 @@
             keep-mods = <(MOD_LCTL)>;
         };
     };
-
-    macros {
-        lalt_lt: alt_layer_toggle {
-            compatible = "zmk,behavior-macro";
-            label = "ALT_LAYER_TOGGLE";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            bindings = <&macro_press &mo LOWER &kp LALT>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo LOWER &kp LALT>;
-        };
-        
-    };
 };
